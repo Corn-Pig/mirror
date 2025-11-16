@@ -1,7 +1,7 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = (req, res) => {
-  let target = "https:/wiki.backroomszh.org/";//your website url
+  let target = "https://wiki.backroomszh.org/";//your website url
   
   createProxyMiddleware({
     target,
